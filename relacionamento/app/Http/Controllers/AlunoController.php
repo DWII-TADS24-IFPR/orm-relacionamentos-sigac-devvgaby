@@ -48,7 +48,7 @@ class AlunoController extends Controller
         $aluno->save();
     }
 
-    /**
+     /**
      * Display the specified resource.
      */
     public function show(string $id)

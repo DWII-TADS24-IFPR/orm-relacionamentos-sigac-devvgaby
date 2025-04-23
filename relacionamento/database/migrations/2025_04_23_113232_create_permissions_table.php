@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('resource_id')->constrained('resources')->onDelete('cascade');
             $table->boolean('permission');
             $table->primary(['role_id', 'resource_id']);
+            $table->timestamps(); 
             $table->softDeletes();
         });
     }

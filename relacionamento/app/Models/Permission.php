@@ -22,3 +22,5 @@ class Permission extends Model
     }
 
 }
+
+
